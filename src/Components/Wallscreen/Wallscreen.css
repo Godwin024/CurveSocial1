@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.frame{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    width: 80%;
+    height: 80%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    width: 50%;
+    height: 90%;
+    /* background-image: url(src/assets/wallpicture.jpg); */
+    /* background-repeat: no-repeat; */
+    /* object-fit: cover; */
+    border-radius: 10px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.mobile h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+}
+
+span{
+    font-size: 25PX;
+    color: white;
+}
+
+/* .mobile h1 {
+    animation: bounce 0.5s; 
+    animation-direction: alternate; 
+    animation-iteration-count: infinite; 
+} 
+
+@keyframes bounce { 
+    from { transform: translate3d(0, 10, 0);} 
+    to { transform: translate3d(0, 200px, 0);} 
+}  */
+
+
+.btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.btn button {
+    width: 40%;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+
+}
